@@ -9,5 +9,18 @@ public class OperatorUnary {
         System.out.println(i);  //tuh betulkan i nilainya 2
         i = i + 1;                  //bisa dilihat i = i+1
         System.out.println(i);  //i tadi 2 sekarang 3
+
+        //Berlaku juga untuk penambahan angka lain dan operator aritmatika lain
+        i+=3; //sama dengan i = i+3
+        System.out.println(i);
+
+        i+=3;
+        System.out.println(i);
+
+        i*=3; //sama dengan i = i*3
+        System.out.println(i);
+
+        i*=3;
+        System.out.println(i);
     }
 }
